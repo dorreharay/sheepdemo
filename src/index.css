@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: CraftworkGrotesk-Bold;
+  src: url("../public/assets/fonts/CraftworkGrotesk-Bold.ttf");
+}
+
+@font-face {
+  font-family: CraftworkGrotesk-Semibold;
+  src: url("../public/assets/fonts/CraftworkGrotesk-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: CraftworkGrotesk-Medium;
+  src: url("../public/assets/fonts/CraftworkGrotesk-Medium.ttf");
+}
+
+@font-face {
+  font-family: CraftworkGrotesk-Regular;
+  src: url("../public/assets/fonts/CraftworkGrotesk-Regular.ttf");
+}

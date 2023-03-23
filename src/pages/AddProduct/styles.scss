@@ -1,0 +1,47 @@
+.addproductpage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    // width: 100%;
+    padding: 0 11%;
+    font-size: 40px;
+    font-family: CraftworkGrotesk-Bold;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    label {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Semibold;
+    }
+
+    input {
+      height: 50px;
+      padding: 0 20px;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Medium;
+    }
+
+    .error {
+      color: #CE3939;
+      margin-bottom: 10px;
+      min-height: 20px;
+    }
+
+    button[type="submit"] {
+      margin-top: 20px;
+      height: 60px;
+      background-color: #000000;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Medium;
+      cursor: pointer;
+    }
+  }
+}

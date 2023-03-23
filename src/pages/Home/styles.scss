@@ -1,0 +1,144 @@
+.home {
+  &__heading {
+    display: flex;
+    align-items: center;
+    padding: 0 11%;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: CraftworkGrotesk-Bold;
+  }
+
+  .searchbox {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 11%;
+
+    label {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Bold;
+    }
+
+    &__input {
+      padding: 10px 20px;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Medium;
+    }
+  }
+
+  .sort {
+    display: flex;
+    align-items: center;
+    margin: 20px 11% 0 11%;
+    font-size: 20px;
+    font-family: CraftworkGrotesk-Medium;
+
+    &__option {
+      margin-left: 10px;
+      padding: 5px 20px;
+      border: 1px solid;
+      border-radius: 100px;
+      background-color: transparent;
+      font-size: 20px;
+      font-family: CraftworkGrotesk-Medium;
+      cursor: pointer;
+
+      &.active {
+        color: #FFFFFF;
+        background-color: #000000;
+      }
+    }
+  }
+
+  .addproduct {
+    display: inline-block;
+    margin-left: 2%;
+    padding: 20px;
+    border-radius: 100px;
+    background-color: #5555F733;
+    text-decoration: none;
+    color: #5555F7;
+    font-size: 15px;
+    font-family: CraftworkGrotesk-Bold;
+  }
+
+  .refresh {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 100px;
+    background-color: #BCCCCB33;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-family: CraftworkGrotesk-Bold;
+    cursor: pointer;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10% 100px 10%;
+
+    &__item {
+      display: flex;
+      width: 100%;
+
+      td {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        margin: 20px;
+        text-align: left;
+      }
+
+      &--image {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+      &--title {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: CraftworkGrotesk-Medium;
+      }
+
+      &--description {
+        width: 30%;
+      }
+
+      &--price {
+        width: 10%;
+        text-align: center;
+      }
+
+      &--actions {
+        display: flex;
+        margin-top: 20px;
+
+        button {
+          padding: 10px 30px;
+          margin-right: 10px;
+          border-radius: 100px;
+          border: 2px solid #000000;
+          background-color: transparent;
+          color: #000000;
+          font-size: 15px;
+          font-family: CraftworkGrotesk-Medium;
+          cursor: pointer;
+
+          &.delete {
+            border: none;
+            color: #FFFFFF;
+            background-color: #CE3939;
+          }
+        }
+      }
+    }
+  }
+}
