@@ -30,6 +30,7 @@ function AddProduct() {
     },
   });
 
+
   const errors: FormikErrors<FormikValues> = formik.errors
 
   return (
